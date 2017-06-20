@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TXRTMPSDK_Example' do
+  pod 'TXRTMPSDK', :podspec => '../TXRTMPSDK.podspec'
+
+  target 'TXRTMPSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
